@@ -30,7 +30,19 @@ The Transformer is a sequence-to-sequence model that relies entirely on attentio
 
 ---
 
-## Project Structure
+## Installation
+
+### Prerequisites
+- Python 3.7+
+- PyTorch (preferred for GPU acceleration)
+
+### Clone the Repository
+```bash
+git clone https://github.com/<your-username>/transformer-from-scratch.git
+cd transformer-from-scratch
+```
+
+### Project Structure
 
 transformer-from-scratch/
 ├── data/                # Dataset files and preprocessing scripts
