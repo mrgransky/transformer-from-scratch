@@ -30,30 +30,16 @@ The Transformer is a sequence-to-sequence model that relies entirely on attentio
 
 ---
 
-## Installation
-
-### Prerequisites
-- Python 3.7+
-- PyTorch (preferred for GPU acceleration)
-
-### Clone the Repository
-```bash
-git clone https://github.com/<your-username>/transformer-from-scratch.git
-cd transformer-from-scratch
+## Project Structure
 
 transformer-from-scratch/
 ├── data/                # Dataset files and preprocessing scripts
 │   ├── tokenizer.py     # Tokenization utilities
 │   ├── dataset.py       # Dataset preparation
-├── models/              # Model definitions
-│   ├── attention.py     # Scaled dot-product attention and multi-head attention
-│   ├── feed_forward.py  # Feed-forward network
-│   ├── encoder.py       # Encoder implementation
-│   ├── decoder.py       # Decoder implementation
-│   ├── transformer.py   # Full Transformer model
 ├── utils/               # Utility functions
 │   ├── positional_encoding.py  # Positional encoding
 │   ├── residual.py      # Residual connections and layer normalization
+├── model.py             # Transformer model implementation
 ├── train.py             # Training script
 ├── evaluate.py          # Evaluation script
 ├── visualize.py         # Visualization of attention weights
