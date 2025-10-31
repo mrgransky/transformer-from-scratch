@@ -31,6 +31,7 @@ The Transformer is a sequence-to-sequence model that relies entirely on attentio
 ---
 
 ## Installation
+[Placeholder: Add installation instructions specific to your project. For example, "To install the necessary dependencies, run `pip install -r requirements.txt`."]
 
 ### Prerequisites
 - Python 3.7+
